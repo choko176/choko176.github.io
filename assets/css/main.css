@@ -43,7 +43,6 @@
 	}
 
 
-/* Box Model */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -54,7 +53,7 @@
 
 
 	
-/* Basic */
+/* fin rest*/
 
 	body {
 		background: #fff;
@@ -142,6 +141,11 @@
 		.icon > .label {
 			display: none;
 		}
+        
+        h2{
+            font-weight: 500;
+            font-size: 30px;
+        }
 
 	.image {
 		border-radius: 0.35em;
@@ -161,10 +165,11 @@
 				border-radius: 100%;
 				width: 100%;
 			}
-        ul li {
-            display: inline-block;
+        .list-experience li {
+            font-size: 14px;
         }
         .list-competence li {
+            display: inline-block;
             margin: 5px;
         }
 
@@ -340,7 +345,4 @@
 					display: none;
         
         }}
-
-        
-        
 
